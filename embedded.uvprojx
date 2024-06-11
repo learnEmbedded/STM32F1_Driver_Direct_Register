@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Lib</IncludePath>
+              <IncludePath>.\MyDriver</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,7 +392,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Drivers</GroupName>
+          <GroupName>MyDrivers</GroupName>
           <GroupOption>
             <CommonProperty>
               <UseCPPCompiler>0</UseCPPCompiler>
@@ -464,54 +464,54 @@
           </GroupOption>
           <Files>
             <File>
-              <FileName>stm32f1.c</FileName>
+              <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f1.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f1.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Lib\stm32f1.h</FilePath>
+              <FilePath>.\MyDriver\gpio.c</FilePath>
             </File>
             <File>
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Lib\gpio.h</FilePath>
-            </File>
-            <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Lib\gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Lib\spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>spi.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Lib\spi.h</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\usart.h</FilePath>
-            </File>
-            <File>
-              <FileName>rcc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\rcc.h</FilePath>
+              <FilePath>.\MyDriver\gpio.h</FilePath>
             </File>
             <File>
               <FileName>rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\rcc.c</FilePath>
+              <FilePath>.\MyDriver\rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>rcc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MyDriver\rcc.h</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MyDriver\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MyDriver\spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MyDriver\stm32f1.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MyDriver\stm32f1.h</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MyDriver\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MyDriver\usart.h</FilePath>
             </File>
           </Files>
         </Group>

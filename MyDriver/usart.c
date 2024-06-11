@@ -61,5 +61,5 @@ void USART_Init(USART_Handle_t *pUSARTHandle) {
 	
 	pUSARTHandle->pUSARTx->CR3 = tempreg;
 	
-	USART_SetBaudRate(pUSARTHandle->pUSARTx, pUSARTHandle->USART_Config.USART_Baud);
+	// USART_SetBaudRate(pUSARTHandle->pUSARTx, pUSARTHandle->USART_Config.USART_Baud);
 }
