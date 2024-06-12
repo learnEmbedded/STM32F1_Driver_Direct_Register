@@ -99,7 +99,7 @@ void USART_SetBaudRate(USART_RegDef_t *pUSARTx, uint32_t BaudRate) {
 
 void USART_PeripheralControl(USART_RegDef_t *pUSARTx, uint8_t EnOrDis) {
 	if (EnOrDis == ENABLE) {
-		pUSARTx->CR1 |= (	1 << 13);
+		pUSARTx->CR1 |= ( 1 << 13);
 	}else {
 		pUSARTx->CR1 &=~ ( 1 << 13);
 	}
