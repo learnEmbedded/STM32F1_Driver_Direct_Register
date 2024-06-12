@@ -3,7 +3,6 @@
 ".\objects\gpio.o"
 ".\objects\rcc.o"
 ".\objects\spi.o"
-".\objects\stm32f1.o"
 ".\objects\usart.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_gpio.o"

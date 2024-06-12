@@ -101,6 +101,8 @@ typedef struct {
 	__vo uint32_t APB1ENR;	/*!< ,									Address offset: 0x1C 	*/
 	__vo uint32_t BDCR;			/*!< ,									Address offset: 0x20 	*/
 	__vo uint32_t CSR;			/*!< ,									Address offset: 0x24 	*/
+	__vo uint32_t AHBRSTR;	/*!< ,									Address offset: 0x28 	*/
+	__vo uint32_t CFGR2;		/*!< ,									Address offset: 0x2C	*/
 }RCC_RegDef_t;
 #define RCC ((RCC_RegDef_t* )RCC_BASEADDR)
 

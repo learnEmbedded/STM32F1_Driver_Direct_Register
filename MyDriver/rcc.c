@@ -4,7 +4,7 @@ uint16_t AHB_PreScaler[8] = {2, 4, 8, 16, 64, 128, 256, 512};
 uint16_t APB1_PreScaler[4] = {2, 4, 8, 16};
 
 
-uint32_t RCC_GetPCLKValue() {
+uint32_t RCC_GetPCLK1Value() {
 	uint32_t pclk1, SystemClk;
 	uint8_t clksrc, temp, ahbp, apb1p;
 	
@@ -35,7 +35,7 @@ uint32_t RCC_GetPCLKValue() {
 	return pclk1;
 }
 
-uint32_t RCC_GetPCLK1Value() {
+uint32_t RCC_GetPCLK2Value() {
 	uint32_t SystemClock = 0, temp, pclk2;
 	uint8_t ahbp, apb2p;
 	

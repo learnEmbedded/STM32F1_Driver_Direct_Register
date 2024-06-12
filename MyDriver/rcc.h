@@ -7,4 +7,7 @@
 uint32_t RCC_GetPCLK1Value(void);
 //This returns the APB2 clock value
 uint32_t RCC_GetPCLK2Value(void);
+
+
+	
 #endif

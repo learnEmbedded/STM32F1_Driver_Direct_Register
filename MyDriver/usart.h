@@ -69,7 +69,7 @@ typedef struct {
 // USART flag
 #define USART_FLAG_TXE			( 1 << USART_SR_TXE)
 #define USART_FLAG_RXNE			( 1 << USART_SR_RXNE)
-#define UASRT_FLAG_TC				( 1 << USART_SR_TC)
+#define USART_FLAG_TC				( 1 << USART_SR_TC)
 
 // Application states
 #define USART_BUSY_IN_RX		1
@@ -117,7 +117,7 @@ void USART_IRQHandling(USART_Handle_t *pUSARTHande);
 uint8_t USART_GetFlagStatus(USART_RegDef_t *pUSARTx, uint8_t StatusFlagName);
 void USART_ClearFlag(USART_RegDef_t *pUSARTx, uint16_t StatusFlagName);
 void USART_PeripheralControl(USART_RegDef_t *pUSARTx, uint8_t EnOrDis);
-// void USART_SetBaudRate(USART_RegDef_t *pUSARTx, uint32_t BaudRate);
+void USART_SetBaudRate(USART_RegDef_t *pUSARTx, uint32_t BaudRate);
 
 /*
  *	Application Callbacks
